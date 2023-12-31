@@ -27,7 +27,8 @@ const Cards = () => {
 
   const fetchDataForDevices = async () => {
     try {
-      const token = process.env.REACT_APP_UBIDOTS_API_TOKEN;
+      // Environment variable: REACT_APP_UBIDOTS_API_TOKEN
+      const token = "BBUS-u9fIqQTLYWRDUQBxP4OuVRnUIcfhF4";
       const devices = ["agrosense1", "agrosense2"];
       const variables = [
         "temperatura",
