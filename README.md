@@ -13,7 +13,12 @@ La aplicación web proporciona una interfaz intuitiva y fácil de usar para visu
 ## Uso
 
 1. Clona este repositorio en tu entorno de desarrollo.
-2. Ejecuta el siguiente comando para instalar las dependencias: `npm install`
+2. Ejecuta el siguiente comando para instalar las dependencias:
+
+   ```
+    npm install
+   ```
+
 3. Ejecuta la aplicación en modo de desarrollo con el siguiente comando:
 
    ```
@@ -22,8 +27,18 @@ La aplicación web proporciona una interfaz intuitiva y fácil de usar para visu
 
    Abre [http://localhost:3000/](http://localhost:3000/) en tu navegador para visualizar la aplicación. La página se recargará automáticamente al realizar cambios.
 
-4. Para ejecutar pruebas, utiliza el siguiente comando: `npm test`
-5. Para construir la aplicación para producción, utiliza: `npm run build`
+4. Para ejecutar pruebas, utiliza el siguiente comando:
+
+   ```
+    npm test
+   ```
+
+5. Para construir la aplicación para producción, utiliza:
+
+   ```
+    npm run build`
+   ```
+
 6. La aplicación se construirá en la carpeta `build`.
 7. Para obtener más detalles sobre la configuración avanzada, revisa la [documentación de Create React App](https://facebook.github.io/create-react-app/docs/advanced-configuration).
 
